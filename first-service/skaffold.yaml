@@ -2,7 +2,7 @@ apiVersion: skaffold/v2beta22
 kind: Config
 build:
   artifacts:
-  - image: piomin/callme-service
-    jib: {}
+    - image: piomin/first-service
+      jib: {}
   tagPolicy:
     gitCommit: {}
